@@ -1,0 +1,32 @@
+.content {
+  height: 100%;
+  background-color: #3a3a3a;
+}
+.movie {
+  display: flex;
+  flex-direction: row;
+}
+.pic {
+  height: 150px;
+}
+.pic image {
+  height: 150px;
+  width: 100px;
+}
+.movie-info {
+  margin-left: 20px;
+}
+.base-info {
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  padding-top: 15px;
+}
+.hr {
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
+  opacity: .2;
+}
